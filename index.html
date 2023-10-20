@@ -1,11 +1,966 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisrt Page in Gitgub Page</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Tree-a Piscinas</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Variables CSS Files -->
+  <link href="assets/css/variables.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top sticked" data-scrollto-offset="0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+        <img src="assets/img/logo.png" alt="logo">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html#about">Sobre Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Nuestros Servicios</a></li>
+          <li><a class="nav-link scrollto" href="index.html#gallery">Galeria</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Nuestro Equipo</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contáctanos</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <section id="hero-animated" class="hero-animated d-flex align-items-center">
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+      <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
+      <h2>Bienvenido a <img src="/assets/img/logo.png" width="120px" height="auto" alt="logo"/></h2>
+      <p>Convirtiendo sueños en piscinas.</p>
+      <div class="d-flex">
+        <a href="https://www.youtube.com/watch?v=VrmldDV5RBU" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Ver Video</span></a>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-water"></i></div>
+              <h4>Agua Cristalina</h4>
+              <p>Garantizamos el agua más pura y cristalina para tu piscina. Una invitación refrescante a cada mirada.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-droplet-half"></i></div>
+              <h4>Eficiencia en el Uso del Agua</h4>
+              <p> Nos preocupamos por el medio ambiente. Nuestras piscinas están diseñadas para reducir el desperdicio de agua.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-tsunami"></i></div>
+              <h4>Seguridad Primero</h4>
+              <p>Diseñamos piscinas con las mejores características de seguridad para que tú y tu familia disfruten sin preocupaciones.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-moisture"></i></div>
+              <h4>Control de Humedad</h4>
+              <p>Para piscinas interiores, ofrecemos sistemas avanzados de control de humedad, asegurando un ambiente cómodo y saludable.</p>
+            </div>
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Sobre Nosotros</h2>
+          <p>Con pasión por el diseño y la excelencia en construcción, llevamos más de una década transformando visiones en oasis acuáticos. Conócenos y descubre por qué somos la elección preferida para convertir sueños en piscinas.</p>
+        </div>
+
+        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-5">
+            <div class="about-img">
+              <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <h3 class="pt-0 pt-lg-5">Construyendo Piscinas Exclusivas Calidad Inigualable en Cada Detalle</h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">Profesionalismo</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">Innovación</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">Compromiso Ambiental</a></li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1">
+                <p class="fst-italic">Con años en el mercado, nuestro equipo de expertos ha perfeccionado el arte de diseñar y construir piscinas duraderas y estéticamente impactantes.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Más de una década en el sector</h4>
+                </div>
+                <p>Tiempo que nos ha consolidado como líderes en la industria.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Construcción de alta durabilidad</h4>
+                </div>
+                <p>Piscinas diseñadas para resistir el paso del tiempo.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Personal capacitado y certificado</h4>
+                </div>
+                <p>Un equipo comprometido con la excelencia en cada proyecto.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Garantía en todos nuestros trabajos</h4>
+                </div>
+                <p>Confianza respaldada en cada construcción.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Testimonios satisfechos de clientes</h4>
+                </div>
+                <p>La voz de quienes ya disfrutan de nuestras obras maestras.</p>
+
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+                <p class="fst-italic">Nos mantenemos a la vanguardia en tendencias de diseño, combinando funcionalidad y estética para crear espacios acuáticos que deslumbran.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Diseños personalizados</h4>
+                </div>
+                <p>Adaptamos cada proyecto a tus deseos y necesidades.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incorporación de tecnologías actuales</h4>
+                </div>
+                <p>Equipamos tus piscinas con lo último en innovación.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Respeto por la visión del cliente</h4>
+                </div>
+                <p>Tu visión es nuestro principal punto de partida.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Piscinas adaptadas a cualquier espacio</h4>
+                </div>
+                <p> Soluciones para todo tipo de entorno y dimensión.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4> Integración con paisajismo</h4>
+                </div>
+                <p>Armonía con la naturaleza para un entorno completo.</p>
+              </div><!-- End Tab 2 Content -->
+
+              <div class="tab-pane fade show" id="tab3">
+                <p class="fst-italic">Somos responsables con el planeta. Implementamos soluciones ecológicas para asegurar un uso eficiente del agua y minimizar el impacto ambiental.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Uso optimizado de recursos</h4>
+                </div>
+                <p>Eficiencia en cada paso para cuidar el planeta.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Soluciones de filtrado ecológico</h4>
+                </div>
+                <p>Sistemas que garantizan agua limpia con mínimo impacto.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Recirculación de agua para menos desperdicio</h4>
+                </div>
+                <p>Aprovechamiento máximo de cada gota.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Materiales sustentables</h4>
+                </div>
+                <p>Compromiso con la tierra en cada elección de material.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Educación y conciencia ecológica en proyectos</h4>
+                </div>
+                <p>Formamos parte de un cambio positivo para el futuro.</p>
+
+              </div><!-- End Tab 3 Content -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row g-5">
+
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+            <h3>Transforma tu Espacio con el Encanto del <em>Agua</em></h3>
+            <p>Sumergirte en una piscina en el corazón de tu hogar es más que un lujo, es un estilo de vida. En Tree-a Piscinas, no sólo construimos piscinas, sino que creamos espacios acuáticos personalizados que reflejan tus sueños y elevan la estética de tu hogar.</p>
+            <a class="cta-btn align-self-start" href="index.html#contact">Contáctanos</a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+            <div class="img">
+              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Call To Action Section -->
+
+    <!-- ======= On Focus Section ======= -->
+    <section id="onfocus" class="onfocus">
+      <div class="container-fluid p-0" data-aos="fade-up">
+
+        <div class="row g-0">
+          <div class="col-lg-6 video-play position-relative">
+            <a href="https://www.youtube.com/watch?v=aU-Oro5Obmk" class="glightbox play-btn"></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="content d-flex flex-column justify-content-center h-100">
+              <h3>El Oasis Perfecto en Tu Propio Hogar</h3>
+              <p class="fst-italic">
+                Imagina un espacio donde el reflejo del sol en el agua crea un ambiente mágico, donde cada gota cuenta una historia de relajación y tranquilidad. En Tree-a Piscinas, hacemos realidad ese sueño.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> Llevamos la vanguardia en diseño de piscinas a tu hogar, creando espacios únicos.</li>
+                <li><i class="bi bi-check-circle"></i> Incorporamos lo último en tecnología para garantizar la eficiencia y durabilidad de nuestras piscinas.</li>
+                <li><i class="bi bi-check-circle"></i> Nuestro enfoque sostenible garantiza un equilibrio con la naturaleza, sin comprometer la belleza del diseño.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End On Focus Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Nuestros Servicios</h2>
+          <p>Descubre una gama completa de servicios diseñados especialmente para ti, garantizando una experiencia de calidad superior. Cada uno ha sido cuidadosamente seleccionado para satisfacer tus necesidades y superar tus expectativas.</p>
+        </div>
+
+        <div class="row gy-5">
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-brush"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Diseño Personalizado</h3>
+                </a>
+                <p>Adaptamos cada proyecto a tus necesidades y gustos específicos. Nuestros diseñadores trabajarán mano a mano contigo para crear un diseño único que se integre perfectamente con el entorno y refleje tu estilo personal.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-wrench-adjustable"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Construcción de Piscinas</h3>
+                </a>
+                <p>Con años de experiencia en el sector, ofrecemos un servicio de construcción de piscinas de alta calidad. Utilizamos los mejores materiales y técnicas para garantizar una piscina duradera y estéticamente agradable.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-pen"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Remodelación</h3>
+                </a>
+                <p>Si ya cuentas con una piscina pero deseas darle un nuevo aire, nuestro equipo de expertos puede ayudarte. Desde cambios menores hasta transformaciones completas, renovamos tu espacio para que parezca completamente nuevo.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-lightbulb"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Sistema de Iluminación</h3>
+                </a>
+                <p>Ilumina tu piscina con sistemas LED de última generación. Personaliza los colores y crea el ambiente perfecto para tus noches de verano o eventos especiales.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-5.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-noise-reduction"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Tratamiento y Purificación del Agua</h3>
+                </a>
+                <p>Nos aseguramos de que el agua de tu piscina esté siempre en las mejores condiciones. Utilizamos sistemas de filtrado y purificación de última generación para garantizar un agua cristalina y saludable.
+
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-umbrella"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Cubiertas y Accesorios</h3>
+                </a>
+                <p>Protege tu piscina de los elementos y garantiza la seguridad de tu familia con nuestras cubiertas personalizadas. Además, ofrecemos una amplia gama de accesorios para mejorar tu experiencia en la piscina.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="testimonials-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Cliente</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Siempre soñé con tener una piscina que reflejara mi personalidad y estilo de vida. Gracias al servicio de Diseño Personalizado, ahora tengo una piscina que es simplemente perfecta para mí. ¡La atención al detalle es increíble!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Cliente</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  La calidad de la construcción de mi piscina ha superado todas mis expectativas. El equipo trabajó de forma eficiente y profesional, y el resultado es simplemente impresionante. Recomiendo encarecidamente su servicio de Construcción de Piscinas.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Cliente</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Mi piscina antigua necesitaba una renovación urgente. El equipo hizo un trabajo excepcional con la remodelación, transformándola en una obra de arte moderna. Ahora es el centro de atención de mi jardín. ¡Gracias!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Cliente</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Desde que contraté su servicio de Mantenimiento y Limpieza, no he tenido que preocuparme por nada. Mi piscina siempre está limpia y en perfectas condiciones. ¡Un servicio imprescindible!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Cliente</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Decidí añadir iluminación y un sistema de calefacción a mi piscina. El servicio de Instalación de Accesorios fue impecable. Ahora puedo disfrutar de mi piscina incluso de noche y en los días más fríos. ¡Totalmente recomendado!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
+                <h3>MIchael Dam</h3>
+                <h4>Cliente</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  No tenía idea de qué tipo de piscina quería o qué diseño sería mejor para mi espacio. A través del Asesoramiento Personalizado, me guiaron en cada paso, ayudándome a tomar decisiones informadas. ¡Valió totalmente la pena!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content px-xl-5">
+              <h3><strong>Preguntas </strong>frecuentes</h3>
+              <p>
+                Bienvenido a nuestro espacio dedicado a la excelencia en diseño y construcción de piscinas. Sabemos que una piscina es más que un simple complemento para tu hogar; es un oasis personal, un refugio donde se crean memorias, se comparten risas y se disfrutan momentos relajantes bajo el sol. Por esta razón, nos tomamos muy en serio la responsabilidad de transformar tu visión en realidad.
+              </p>
+            </div>
+
+            <div class="accordion accordion-flush px-xl-5" id="faqlist">
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ¿Cuánto tiempo tarda la construcción de una piscina?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    La duración de la construcción de una piscina puede variar dependiendo del diseño, tamaño y condiciones del terreno. Sin embargo, en promedio, una piscina puede tardar entre 4 a 8 semanas en construirse desde que se inicia el proyecto.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ¿Ofrecen garantía en sus servicios?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Sí, ofrecemos una garantía en todos nuestros servicios. La duración y términos de la garantía pueden variar según el servicio específico, pero siempre estamos comprometidos a garantizar la satisfacción y seguridad de nuestros clientes.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ¿Es posible remodelar una piscina antigua sin tener que construir una nueva?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    ¡Definitivamente! Nuestro servicio de remodelación está diseñado para transformar piscinas antiguas y darles un aspecto completamente nuevo, mejorando su funcionalidad y estética sin la necesidad de construir desde cero.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ¿Qué tipo de mantenimiento requiere una piscina y con qué frecuencia?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    El mantenimiento de una piscina es esencial para su longevidad y para mantener la calidad del agua. Recomendamos una limpieza semanal para eliminar hojas y otros residuos, así como un chequeo mensual de los niveles químicos. Además, es importante realizar un servicio de mantenimiento integral al menos una vez al año.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ¿Tienen opciones ecológicas o sistemas de piscinas salinas?
+                  </button>
+                </h3>
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Sí, estamos comprometidos con el medio ambiente y ofrecemos soluciones ecológicas para las piscinas, incluidos sistemas de piscinas salinas. Estos sistemas reducen la necesidad de químicos y ofrecen una experiencia de nado más natural y suave para la piel.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery" data-aos="fade-up">
+      <div class="container">
+        <div class="section-header">
+          <h2>Galeria</h2>
+          <p>Adéntrate en nuestro mundo de creatividad y diseño a través de esta cuidada selección de imágenes. Cada foto captura la esencia de nuestro trabajo y la pasión que ponemos en cada proyecto. Desde refugios acuáticos modernos hasta oasis naturales, nuestra galería está diseñada para inspirarte y mostrarte las infinitas posibilidades que ofrecemos.</p>
+        </div>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
+        <div class="gallery-isotope" data-gallery-filter="*" data-gallery-layout="masonry" data-gallery-sort="original-order">
+
+          <ul class="gallery-flters">
+            <li data-filter="*" class="filter-active">Todo</li>
+            <li data-filter=".filter-residential">Residencial</li>
+            <li data-filter=".filter-lighting">Iluminación</li>
+            <li data-filter=".filter-comercial">Comercial</li>
+          </ul><!-- End gallery Filters -->
+
+          <div class="row g-0 gallery-container">
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-residential">
+              <img src="assets/img/gallery/residencial-1.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Residencial 1</h4>
+                <a href="assets/img/gallery/residencial-1.jpg" title="Residencial 1" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-lighting">
+              <img src="assets/img/gallery/nocturna-1.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Iluminación 1</h4>
+                <a href="assets/img/gallery/nocturna-1.jpg" title="Iluminación 1" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-lighting">
+              <img src="assets/img/gallery/nocturna-4.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Iluminación 2</h4>
+                <a href="assets/img/gallery/nocturna-4.jpg" title="Iluminación 2" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-residential">
+              <img src="assets/img/gallery/residencial-4.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Residencial 2</h4>
+                <a href="assets/img/gallery/residencial-4.jpg" title="Iluminación 2" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-residential">
+              <img src="assets/img/gallery/residencial-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Residencial 3</h4>
+                <a href="assets/img/gallery/residencial-2.jpg" title="Residencial 3" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-lighting">
+              <img src="assets/img/gallery/nocturna-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Iluminación 3</h4>
+                <a href="assets/img/gallery/nocturna-2.jpg" title="Iluminación 3" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-comercial">
+              <img src="assets/img/gallery/comercial-1.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Comercial 1</h4>
+                <a href="assets/img/gallery/comercial-1.jpg" title="Comercial 1" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-comercial">
+              <img src="assets/img/gallery/comercial-2.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Comercial 2</h4>
+                <a href="assets/img/gallery/comercial-2.jpg" title="Comercial 1" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-residential">
+              <img src="assets/img/gallery/residencial-3.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Residencial 4</h4>
+                <a href="assets/img/gallery/residencial-3.jpg" title="Residencial 4" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-lighting">
+              <img src="assets/img/gallery/nocturna-3.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Iluminación 4</h4>
+                <a href="assets/img/gallery/nocturna-3.jpg" title="Iluminación 4" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-comercial">
+              <img src="assets/img/gallery/comercial-3.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Comercial 3</h4>
+                <a href="assets/img/gallery/comercial-3.jpg" title="Comercial 1" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 gallery-item filter-comercial">
+              <img src="assets/img/gallery/comercial-4.jpg" class="img-fluid" alt="">
+              <div class="gallery-info">
+                <h4>Comercial 4</h4>
+                <a href="assets/img/gallery/comercial-4.jpg" title="Comercial 3" data-gallery="gallery-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End gallery Item -->
+          </div><!-- End gallery Container -->
+        </div>
+      </div>
+    </section><!-- End gallery Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Nuestro equipo</h2>
+          <p>Conoce al equipo detrás de cada proyecto exitoso. Estos son los profesionales comprometidos con la excelencia y dedicados a transformar tus sueños en realidad. Cada miembro de nuestro equipo aporta su experiencia, pasión y habilidades únicas para garantizar que tu experiencia con nosotros sea inigualable desde el inicio hasta la culminación del proyecto.</p>
+        </div>
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/arquitecta.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Camila Rodríguez</h4>
+                <span>Arquitecta de Piscinas</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/hidráulico.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Javier Mendoza</h4>
+                <span>Ingeniero Hidráulico</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/luisa.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Luisa Fernández</h4>
+                <span>Gerente de Proyectos</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contáctenos</h2>
+          <p>¿Listo para dar el siguiente paso y acercarte a la piscina de tus sueños? Estamos aquí para responder todas tus dudas y ayudarte en cada etapa del proceso. Ponte en contacto con nosotros y descubre cómo podemos hacer realidad tu visión. Tu satisfacción es nuestra prioridad, y nuestro equipo está ansioso por escucharte.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row gy-5 gx-lg-5">
+          <div class="col-lg-4">
+            <div class="info">
+              <h3>Ponerse en contacto</h3>
+              <p>¿Listo para dar el siguiente paso? Contáctanos y hagamos realidad tu proyecto de piscina.</p>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Ubicación:</h4>
+                  <p>Calle Piscinaris 123, Lago Azul, Ciudad Aqua.</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Correo electrónico:</h4>
+                  <p>tree-a@piscinas.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Teléfono:</h4>
+                  <p>+1 23 456 7890</p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <form role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Correo electrónico" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" placeholder="Mensaje" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Su mensaje ha sido enviado. ¡Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <img src="/assets/img/logo.png" width="200px" alt="logo">
+              <p>
+                Calle Piscinaris 123, Lago Azul, Ciudad Aqua. <br>
+                Usaquén, Bogotá, Cundinamarca<br><br>
+                <strong>Teléfono:</strong> +1 23 456 7890<br>
+                <strong>Correo electrónico:</strong> tree-a@piscinas.com<br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Enlaces útiles</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about">Sobre Nosotros</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Nuestros Servicios</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#gallery">Galeria</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#team">Nuestro Equipo</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contáctanos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nuestros Servicios</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> Diseño Personalizado</li>
+              <li><i class="bi bi-chevron-right"></i> Construcción de Piscinas</li>
+              <li><i class="bi bi-chevron-right"></i> Remodelación</li>
+              <li><i class="bi bi-chevron-right"></i> Sistema de Iluminación</li>
+              <li><i class="bi bi-chevron-right"></i> Tratamiento y Purificación del Agua</li>
+              <li><i class="bi bi-chevron-right"></i> Cubiertas y Accesorios</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Nuestro Boletín Informativo</h4>
+            <p>¡Suscríbete a nuestro boletín y sumérgete en las últimas novedades y ofertas!</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Tree-a Piscinas</span></strong>. Todos los derechos reservados
+          </div>
+          <div class="credits">
+            Diseñado por <a href="https://www.linkedin.com/in/samuelnanezcruz/">Samuel Nañez Cruz</a>
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

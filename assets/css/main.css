@@ -548,7 +548,7 @@ section {
 .hero-animated {
   width: 100%;
   min-height: 50vh;
-  background: linear-gradient(rgb(201 201 201 / 0%), rgb(255 255 255)), url(../img/hero-bg.png) center center;
+  background: linear-gradient(rgb(201 201 201 / 0%), rgb(255 255 255)), url(../img/hero-bg.webp) center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -689,7 +689,7 @@ section {
   width: 100%;
   padding: 0;
   background: var(--color-black);
-  background: url("../img/hero-bg.png") center center;
+  background: url("../img/hero-bg.webp") center center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -984,7 +984,7 @@ section {
 .hero-static {
   width: 100%;
   min-height: 50vh;
-  background: url("../img/hero-bg.png") center center;
+  background: url("../img/hero-bg.webp") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -1130,7 +1130,7 @@ section {
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: url("../img/about-bg.png") top left;
+  background: url("../img/about-bg.webp") top left;
   background-repeat: no-repeat;
 }
 
@@ -1322,12 +1322,12 @@ section {
 
 .onfocus .video-play {
   min-height: 400px;
-  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.jpg") center center;
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.webp") center center;
   background-size: cover;
 }
 
 .onfocus .content {
-  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.jpg") center center;
+  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.webp") center center;
   background-size: cover;
   color: rgba(var(--color-white-rgb), 0.8);
   padding: 40px;
@@ -1648,7 +1648,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/testimonials-bg.webp") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -2912,7 +2912,7 @@ section {
 .footer {
   color: var(--color-white);
   font-size: 14px;
-  background-image: linear-gradient( rgb(0 0 0), rgb(0 0 0 / 73%), rgb(0 0 0) ),url(../img/testimonials-bg.jpg);
+  background-image: linear-gradient( rgb(0 0 0), rgb(0 0 0 / 73%), rgb(0 0 0) ),url(../img/testimonials-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
